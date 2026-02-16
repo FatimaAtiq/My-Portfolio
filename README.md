@@ -16,5 +16,4 @@ This is my personal portfolio showcasing projects, skills, and experience in web
 
 <h3>Connect</h3>
 <p><a href = "https://www.linkedin.com/in/fatimaatiq/">Linkedin</a></p>
-<p><a href = "https://github.com/FatimaAtiq">Github</a></p>
 <p><a href = "mailto:fatimaatiq7211@gmail.com">Mail</a></p>
