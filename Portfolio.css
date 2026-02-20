@@ -51,7 +51,16 @@ body::after {
         transform: translate(0, 10%) scale(1);
     }
 }
+.reveal {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1s ease;
+}
 
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
 .rect {
     width: 90%;
     max-width: 1200px;
@@ -599,4 +608,19 @@ body::after {
 .location-icon {
     width: 40px;
     height: 40px;
+}
+
+#bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.skill-icon {
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.skill-icon:hover {
+    transform: scale(1.2) rotate(5deg);
+    filter: drop-shadow(0 0 10px #00d2ff);
 }

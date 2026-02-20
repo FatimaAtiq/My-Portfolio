@@ -11,14 +11,15 @@
     <title>Fatima Atiq</title>
 </head>
 <body>
+    
     <div class="main-wrapper">
         <div class="glass-bg">
             <div class="panel p1"></div>
             <div class="panel p2"></div>
             <div class="panel p3"></div>
         </div>
-        <div class="rect">
-            <h1 class="name">Fatima Atiq</h1>
+        <div class="rect reveal">
+            <h1 class="name"><span id="typed-name"></span></h1>
             <div class="btn-container">
                 <a href="#about" class="btn">
                     About Me
@@ -43,7 +44,7 @@
                 </a>
             </div>
         </div>
-        <div id="about" class="about-section">
+        <div id="about" class="about-section reveal">
             <div class="about-left">
                 <p class="hi">Hello! I am</p>
                 <h2>Fatima Atiq</h2>
@@ -89,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div id="projects">
+        <div id="projects" class="reveal">
             <div class="projects-container">
                 <h2 class="section-title">My Projects</h2>
                 <div class="project-cards">
@@ -198,7 +199,7 @@
                 </div>
             </div>
         </div>
-        <div id="contact" class="contact-section">
+        <div id="contact" class="contact-section reveal">
             <h2 class="contact-title">Get in Touch</h2>
             <p class="contact-subtitle">Let's collaborate! I am always open to discussing exciting projects and new opportunities</p>
             <p class="contact-subtitle">Feel free to connect with me through any of the platforms below.</p>
@@ -225,5 +226,7 @@
             </div>
         </div>
     </div>
+    <canvas id="bg-canvas"></canvas>
+    <script src="script.js"></script>
 </body>
 </html>
